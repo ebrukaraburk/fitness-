@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#A0E1A2"
+    android:layout_height="match_parent"
+    tools:context=".FitnessEkraniActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="tüketilen gıdalar"
+            android:textStyle="italic"
+            android:typeface="monospace"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcyclemyrecycle"
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:layout_marginTop="102dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

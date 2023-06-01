@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#B6A162"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+
+        <EditText
+            android:id="@+id/edtxtposta"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:hint="E posta"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtxtsifre"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:hint="Şifre"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:inputType="textPassword">
+
+        </EditText>
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btngirisyap"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:text="giriş yap"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp">
+
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>
